@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.w-1440 {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    background: #FAF4F2;
+}
+/*___________________________ABOUT____________________________*/
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 176px 125px 182px;
+}
+.about div h3{
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 155% */
+    padding-top: 112px;
+}
+.about div p{
+    width: 509px;
+    height: 144px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 7px 167px 57px auto;
+}
+.about .social_media{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .send{
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    border: none;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 25px 30px 2px 0;
+}
+.about .download{
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/*___________________________FUNCTION____________________________*/
+.function{
+    width: 1140px;
+    height: 519px;
+    border-radius: 35px;
+    background: #FF7315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 125px 150px;
+    padding: 62px 76px 63px 32px;
+}
+.function div{
+    margin-left: 32px;
+}
+.function h2{
+    color: #F9F9F9;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+}
+.function div p:nth-child(2){
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    margin: 16px auto 19px auto;
+}
+.function h3{
+    color: #F9F9F9;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+}
+.function div p:nth-child(4){
+    width: 570px;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+    margin-top: 19px;
+}
+/*________________________________SKILLS___________________________*/
+.skills{
+    width: 1140px;
+    margin: 125px 150px;
+}
+.skills .skills_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills h3{
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+}
+.skills_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    gap: 60px;
+}
+.skills_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.skills .icon{
+    width: 98px;
+    height: 98px;
+    background-color: rgba(34, 34, 34, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills .skills_card h4{
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin: 51px auto 12px auto;
+}
+.skills .skills_card p{
+    width: 240px;
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/*_____________________________PORTFOLIO_________________________*/
+.portfolio h3{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    margin: 125px auto 64px 150px;
+}
+.portfolio .portfolio_image{
+    margin: 0 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+/*______________________________FEEDBACK__________________________*/
+.feedback{
+    height: 643px;
+    background: #FF7315;
+    margin: 125px 0;
+}
+.feedback_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 416px 111px;
+}
+.feedback_text h3{
+    width: 609px;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+}
+.feedback_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+
+}
+.feedback_card_first, .feedback_card_second{
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+.feedback_card p{
+    width: 419px;
+    height: 108px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*_____________________________PRICE___________________________*/
+.price_plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+    flex-direction: column;
+}
+.price_plans h3{
+    color:#222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+}
+.price_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 150px 100px 150px;
+    gap: 67px;
+}
+.price_card{
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.price_card div:nth-child(1) h4{
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    width: 335px;
+    height: 66px;
+    text-align: center;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price_card p{
+    color: #2B2B2B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+    margin: 36px auto 29px 98px;
+}
+.price_card p span{
+    color: #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    opacity: 0.5;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
+.price_card ul{
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+.price_card ul li{
+    padding-bottom: 16px;
+}
+.silver ul li:nth-child(-n+2)::before,
+.gold ul li:nth-child(-n+4)::before
+{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+    background-image: url("../../HTML-CSS_EXAM/BUSINESS_CARD/img/Check.svg");
+    background-size: cover;
+    margin-right: 16px;
+}
+.silver ul li:nth-child(n+3)::before,
+.gold ul li:nth-child(n+5)::before
+{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+    background-image: url("../../HTML-CSS_EXAM/BUSINESS_CARD/img/Close.svg");
+    background-size: cover;
+    margin-right: 16px;
+}
+.silver ul li:nth-child(n+3),
+.gold ul li:nth-child(n+5){
+    opacity: 0.5;
+}
+.dimond ul li::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+    background-image: url("../../HTML-CSS_EXAM/BUSINESS_CARD/img/Check.svg");
+    background-size: cover;
+    margin-right: 16px;
+}
+/*________________________________EMAIL__________________________*/
+.email div{
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background:#FF7315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 165px;
+}
+.email h3{
+    width: 343px;
+    height: 124px;
+    color: #F9F9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+    margin: 50px 333px 50px 75px;
+}
+.email button{
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+    border: none;
+    margin: 77px 100px 77px auto;
+
+}
+/*________________________________BLOG___________________________*/
+.blog h3{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 125px auto 48px 150px;
+}
+.blog_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.blog_card{
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.blog_card h5{
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+    margin-top: 24px;
+}
+.blog_card p{
+    width: 240px;
+    height: 70px;
+    flex-shrink: 0;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+    margin-top: 12px;
+    margin-bottom: 57px;
+}
+/*________________________________FOOTER_________________________*/
+footer{
+    width: 1440px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1F1F1;
+    color:#222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 125px;
+}
